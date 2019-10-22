@@ -50,13 +50,11 @@ public class Tester {
 
             CollaborativeFIltering cf = new CollaborativeFIltering();
             cf.calculateSimilarity();
-            cf.calculatePrediction();
-            System.out.println();
-            System.out.println("Masukkan userID untuk melihat rekomendasi : ");
-            int user_id = sc.nextInt();
-            cf.getUserRecommendation(user_id);
-            
-            
+//            cf.calculatePrediction();
+//            System.out.println();
+//            System.out.println("Masukkan userID untuk melihat rekomendasi : ");
+//            int user_id = sc.nextInt();
+//            cf.getUserRecommendation(user_id);
         }
         else{
             System.out.println("JUMLAH CLUSTER YANG DIMASUKKAN TIDAK BOLEH SAMA ATAU LEBIH BESAR DARI JUMLAH USER");
